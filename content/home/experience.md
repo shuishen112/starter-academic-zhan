@@ -5,11 +5,16 @@ date_format: Jan 2006
 experience:
   - title: Algorithm research
     company: Tencent Company
-    company_url: ""
+    company_url: "https://www.tencent.com/en-us"
     location: China
     date_start: 2019-04-13
     date_end: 
-    description: In search ranking problems, we want to improve the generalization and effectiveness of the click through rate (CTR) model. 
+    description: In search ranking problems, we want to improve the generalization and effectiveness of the click through rate (CTR) model.
+    Responsibilities include:
+        - Conducting data processing on the massive user behavior datasets collected from the QQ browser.
+        -  Analysing the datasets and conduct feature engineering.
+        -  Developing the machine learning(wide \& deep) applications.
+        -  Conducting experiments on offline datasets and online A/B test.
   - title:  Research Intern
     company: Tencent
     company_url: "https://www.tencent.com/en-us"
