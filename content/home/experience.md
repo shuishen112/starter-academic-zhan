@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Research algorithm
     company: Tencent
-    company_url: 'https://www.tencent.com/en-us'
+    company_url: ''
     location: Shenzhen in China
     date_start: '2019-04-13'
     date_end: ''
