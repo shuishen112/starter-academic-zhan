@@ -1,35 +1,45 @@
 ---
+# An instance of the Experience widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
-headless: true
-weight: 40
-title: Experience
-subtitle: null
-date_format: Jan 2006
-experience:
-  - title: Research algorithm
-    company: Tencent
-    company_url: "https://www.tencent.com/en-us"
-    location: Shenzhen in China
-    date_start: 2019-04-13
-    date_end: ""
-    description: In search ranking problems, we want to improve the generalization and effectiveness of the click through rate (CTR) model. 
-        Responsibilities include:
-        
-        *  Conducting data processing on the massive user behavior datasets collected from the QQ browser.
-        *  Analysing the datasets and conduct feature engineering.
-        *  Developing the machine learning(wide \& deep) applications.
-        *  Conducting experiments on offline datasets and online A/B test.
-  - title:  Research Intern
-    company: Tencent
-    company_url: "https://www.tencent.com/en-us"
-    location: Shenzhen in China
-    date_start: 2018-06-01
-    date_end: 2018-09-01
-    description: In information retrieval(IR), it is important to model the semantic similarity between the query and document. We want to deal with this semantic matching problem based on deep learning model.
-        Responsibilities include:
-        
-        *  Collecting the query document pairs from the search engine and conducting data processing(data cleaning, data sampling)
-        *  Utilizing an End-to-End CNN to model the interaction information in query-title pair.
-        *  Developing the model framework.
 
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 40
+
+title: Experience
+subtitle:
+
+# Date format for experience
+#   Refer to https://wowchemy.com/docs/customization/#date-format
+date_format: Jan 2006
+
+# Experiences.
+#   Add/remove as many `experience` items below as you like.
+#   Required fields are `title`, `company`, and `date_start`.
+#   Leave `date_end` empty if it's your current employer.
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+experience:
+  - title: CEO
+    company: GenCoin
+    company_url: ''
+    location: California
+    date_start: '2017-01-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Analysing
+        * Modelling
+        * Deploying
+        
+  - title: Professor
+    company: University X
+    company_url: ''
+    location: California
+    date_start: '2016-01-01'
+    date_end: '2016-12-31'
+    description: Taught electronic engineering and researched semiconductor physics.
 ---
