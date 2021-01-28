@@ -1,50 +1,44 @@
 ---
 title: Zhan Su
 role: Phd fellow of Copenhagen University
-avatar_filename: zhansu.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+avatar_filename: ""
+bio: "My research interests include Natural Language Processing(NLP), Language
+  model, Tensor neural network. "
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
+  - Natural Language Processing
   - Information Retrieval
+  - Artificial Intelligence
 social:
   - icon: envelope
     icon_pack: fas
     link: /#contact
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/zhansu9
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/shuishen112
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Copenhagen
+    url: https://www.ku.dk/english/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-email: ""
+    - course: PhD in Computer Science
+      institution: "University of Copenhagen "
+      year: 2021
+    - course: Msc in Computer Science
+      institution: Tianjin University
+      year: ""
+    - course: BSc in Computer Science
+      institution: North University of China
+      year: ""
+email: zhan.su@di.ku.dk
 superuser: true
 highlight_name: false
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Zhan Su is a new Phd student at the Faculty of Science. University of Copenhagen, My research interests include Natural Language Processing, Information Retrieval, Tensor Based Language model. Then research work in my master degree is mainly about Language model. Especially for quantum language model and tensor based language model. I worked as an algorithm researcher in Tencent company for one year and a half after graduation. Nowdays, I am a Phd fellow in Department of Computer Science and Communication, University of Copenhagen (DIKU).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
