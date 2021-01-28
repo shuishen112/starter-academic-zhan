@@ -1,6 +1,7 @@
 ---
 title: Zhan Su
 role: Phd fellow of Copenhagen University
+avatar_filename: zhansu.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
