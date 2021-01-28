@@ -22,20 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Research algorithm
-    company: Tencent
-    company_url: 'https://www.tencent.com/en-us'
-    location: Shenzhen in China
-    date_start: '2019-04-13'
-    date_end: ''
-    description: In search ranking problems, we want to improve the generalization and effectiveness of the click through rate (CTR) model. 
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
-  
-  - title: CEO
+  - title: Algorithm researcher
     company: GenCoin
     company_url: ''
     location: California
@@ -47,4 +34,12 @@ experience:
         * Analysing
         * Modelling
         * Deploying
+        
+  - title: Professor
+    company: University X
+    company_url: ''
+    location: California
+    date_start: '2016-01-01'
+    date_end: '2016-12-31'
+    description: Taught electronic engineering and researched semiconductor physics.
 ---
