@@ -1,5 +1,9 @@
 ---
 widget: experience
+headless: true
+weight: 40
+title: Experience
+subtitle: null
 date_format: Jan 2006
 experience:
   - title: Research algorithm
@@ -27,8 +31,5 @@ experience:
         *  Collecting the query document pairs from the search engine and conducting data processing(data cleaning, data sampling)
         *  Utilizing an End-to-End CNN to model the interaction information in query-title pair.
         *  Developing the model framework.
-headless: true
-weight: 40
-title: Experience
-subtitle: null
+
 ---
