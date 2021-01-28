@@ -3,18 +3,6 @@ widget: experience
 active: true
 date_format: Jan 2006
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ""
-    location: California
-    date_start: 2017-01-01
-    date_end: ""
-    description: |-2
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
   - title: Professor
     company: University X
     company_url: ""
