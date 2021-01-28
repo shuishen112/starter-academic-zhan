@@ -39,6 +39,6 @@ email: zhan.su@di.ku.dk
 superuser: true
 highlight_name: false
 ---
-Zhan Su is a new Phd student at the Faculty of Science. University of Copenhagen, My research interests include Natural Language Processing, Information Retrieval, Tensor Based Language model. Then research work in my master degree is mainly about Language model. Especially for quantum language model and tensor based language model. I worked as an algorithm researcher in Tencent company for one year and a half after graduation. Nowdays, I am a Phd fellow in Department of Computer Science and Communication, University of Copenhagen (DIKU).
+Zhan Su is a new Phd student at the Faculty of Science. University of Copenhagen, My research interests include Natural Language Processing, Information Retrieval, Tensor Based Language model. The research work in my master degree is mainly about Language model. Especially for quantum language model and tensor based language model. I worked as an algorithm researcher in Tencent company for one year and a half after graduation. Nowdays, I am a Phd fellow in Department of Computer Science and Communication, University of Copenhagen (DIKU).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
