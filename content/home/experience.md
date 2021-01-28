@@ -6,13 +6,13 @@ experience:
   - title: Algorithm research
     company: Tencent Company
     company_url: "https://www.tencent.com/en-us"
-    location: China
+    location: Shenhen in China
     date_start: 2019-04-13
     date_end: 
     description: In search ranking problems, we want to improve the generalization and effectiveness of the click through rate (CTR) model.
 
   - title:  Research Intern
-    company: Tencent
+    company: Tencent Company
     company_url: "https://www.tencent.com/en-us"
     location: Shenzhen in China
     date_start: 2018-06-01
