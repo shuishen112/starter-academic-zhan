@@ -13,7 +13,7 @@ abstract: ""
 draft: false
 featured: true
 tags: []
-slides: example
+slides: CIKM2019
 url_pdf: ""
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/IEHPDNk2-8w)"
@@ -40,7 +40,7 @@ author_notes:
 doi: ""
 publication: The 27th ACM International Conference on Information and Knowledge Management
 projects:
-  - example
+  - CIKM2019
 date: 2021-01-28T10:36:16.173Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
