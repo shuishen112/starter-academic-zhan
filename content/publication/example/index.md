@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-01-29 16:58:35
- * @LastEditTime: 2021-01-29 17:23:50
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: /starter-academic-zhan/content/publication/example/index.md
--->
 ---
 title: A Quantum Many-body Wave Function Inspired Language Modeling Approach
 publication_types:
