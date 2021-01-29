@@ -19,7 +19,7 @@ image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/IEHPDNk2-8w)"
   focal_point: ""
   preview_only: false
-  filename: feature.jpg
+  filename: featured.jpg
 summary: >
   In this paper, we propose a Quantum Many-body Wave Function (QMWF) inspired
   language modeling approach. The QMWF inspired LM can adopt the tensor product
