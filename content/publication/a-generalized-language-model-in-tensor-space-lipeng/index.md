@@ -26,7 +26,7 @@ abstract: In the literature, tensors have been effectively used for capturing
   experimental results on Penn Tree Bank (PTB) dataset and WikiText benchmark
   demonstrate the effectiveness of TSLM.
 draft: false
-featured: false
+featured: true
 image:
   filename: featured
   focal_point: Smart
