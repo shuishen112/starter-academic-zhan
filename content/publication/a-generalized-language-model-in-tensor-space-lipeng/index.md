@@ -1,5 +1,6 @@
 ---
-title: A Generalized Language Model in Tensor Space Lipeng
+title: A Generalized Language Model in Tensor Space
+subtitle: AAAI2019
 publication_types:
   - "1"
 authors:
