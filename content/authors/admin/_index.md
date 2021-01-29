@@ -1,7 +1,7 @@
 ---
 title: Zhan Su
 role: Phd fellow of Copenhagen University
-avatar_filename: ""
+avatar_filename: zhan.jpeg
 bio: "My research interests include Natural Language Processing(NLP), Language
   model, Tensor neural network. "
 interests:
