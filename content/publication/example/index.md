@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-01-29 16:58:35
+ * @LastEditTime: 2021-01-29 17:23:50
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /starter-academic-zhan/content/publication/example/index.md
+-->
 ---
 title: A Quantum Many-body Wave Function Inspired Language Modeling Approach
 publication_types:
@@ -14,7 +22,7 @@ draft: false
 featured: true
 tags: []
 slides: CIKM2019
-url_pdf: ""
+url_pdf: "https://arxiv.org/abs/1808.09891"
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/IEHPDNk2-8w)"
   focal_point: ""
@@ -45,7 +53,7 @@ date: 2021-01-28T10:36:16.173Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
-url_code: ""
+url_code: "https://github.com/shuishen112/CIKM2018_QMWFLM"
 ---
 {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.

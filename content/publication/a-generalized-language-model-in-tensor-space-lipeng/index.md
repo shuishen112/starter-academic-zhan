@@ -22,6 +22,9 @@ abstract: In this paper, we propose a language model named Tensor Space Language
   Penn Tree Bank (PTB) dataset and WikiText benchmark demonstrate the
   effectiveness of TSLM.
 featured: true
+url_pdf: "https://arxiv.org/abs/1901.11167"
+url_code: "https://github.com/TJUIRLAB/AAAI19-TSLM"
+url_slides: ""
 tags:
   - TSLM
 projects:
