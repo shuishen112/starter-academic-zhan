@@ -1,7 +1,5 @@
 ---
-abstract: ""
-slides: example
-url_pdf: ""
+title: A Quantum Many-body Wave Function Inspired Language Modeling Approach
 publication_types:
   - "1"
 authors:
@@ -10,27 +8,39 @@ authors:
   - Lipeng Zhang
   - Benyou Wang
   - Dawei Song
-author_notes:
-  - Equal contribution
-  - Equal contribution
-publication: The 27th ACM International Conference on Information and Knowledge Management
-summary: ""
-url_dataset: ""
-url_project: ""
 publication_short: CIKM2019
-url_source: ""
-url_video: ""
-title: A Quantum Many-body Wave Function Inspired Language Modeling Approach
-doi: ""
+abstract: ""
+draft: false
 featured: true
 tags: []
-projects:
-  - example
+slides: example
+url_pdf: ""
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/IEHPDNk2-8w)"
   focal_point: ""
   preview_only: false
-  filename: samuel-ferrara-iehpdnk2-8w-unsplash.jpg
+  filename: feature.jpg
+summary: >
+  In this paper, we propose a Quantum Many-body Wave Function (QMWF) inspired
+  language modeling approach. The QMWF inspired LM can adopt the tensor product
+  to model the aforesaid interaction among words. It also enables us to reveal
+  the inherent necessity of using Convolutional Neural Network (CNN) in QMWF
+  language modeling. Furthermore, our approach delivers a simple algorithm to
+  represent and match text/sentence pairs. Systematic evaluation shows the
+  effectiveness of the proposed QMWF-LM algorithm, in comparison with the state
+  of the art quantum-inspired LMs and a couple of CNN-based methods, on three
+  typical Question Answering (QA) datasets.
+url_dataset: ""
+url_project: ""
+url_source: ""
+url_video: ""
+author_notes:
+  - Equal contribution
+  - Equal contribution
+doi: ""
+publication: The 27th ACM International Conference on Information and Knowledge Management
+projects:
+  - example
 date: 2021-01-28T10:36:16.173Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
