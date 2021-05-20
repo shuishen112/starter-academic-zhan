@@ -9,6 +9,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+
+
 \# 词向量压缩
 
 词向量在深度学习中已经有广泛的应用，比如word2vec 和glove等。存储词向量需要大量的存储空间，比如当我们的字典有$n$个tokenS, embedding 维度为$p$时候。我们需要一个$n\times p$大小的矩阵存储空间。因此，对于深度学习任务而言，如何压缩词向量，让词向量既可以有足够的表达能力保证模型的准确性是非常有必要的。在本文中，我们介绍了几种压缩词向量的方式。Word2ket，Light RNN和Tensor Train Compression.
