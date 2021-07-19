@@ -1,3 +1,7 @@
+---
+title: 词向量压缩
+date: 2021-07-19T09:01:07.240Z
+---
 <!--
  * @Author: your name
  * @Date: 2021-07-19 16:24:09
@@ -6,17 +10,6 @@
  * @Description: In User Settings Edit
  * @FilePath: /starter-academic-zhan/content/post/词向量压缩/index.md
 -->
----
-title: 词向量压缩
-subtitle: 词向量压缩
-date: 2021-05-20T09:28:58.349Z
-draft: false
-featured: true
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
----
 
 
 # 词向量压缩
