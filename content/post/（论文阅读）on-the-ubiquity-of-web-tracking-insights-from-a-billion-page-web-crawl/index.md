@@ -4,7 +4,7 @@ date: 2021-07-23T10:45:55.131Z
 draft: false
 featured: false
 image:
-  filename: image-20210723183810000.png
+  filename: ""
   focal_point: Smart
   preview_only: false
 ---
@@ -48,7 +48,7 @@ image:
 
 我们用pay-level domains 作为websites 和 third -party。在外面的抽取过程中，我们的抽取将HTML 文档作为输入，对HTML文档进行解析，trakcers来自于"script","iframe","link"和"image", 如图
 
-![image-20210722104947894](file:///Users/zhansu/Documents/markdown/common_crawl_%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/image-20210722104947894.png?lastModify=1627037166)
+![image-20210722104947894](image-20210722104947894.png)
 
 这里注意一点，我们这种抽取方式不能完全意义上模拟用户, 对于一些实时对trackers不包含在内。
 
@@ -74,7 +74,7 @@ d_{D,t}=\frac{|t(D)|}{|D|}​
 
 注意，这两个概念是不同的。
 
-![image-20210722150358137](image-20210722104947894.png)
+![image-20210722150358137](image-20210722150358137.png)
 
 图中是我们统计出来的rank shared 和 domain shared.
 
@@ -84,7 +84,7 @@ d_{D,t}=\frac{|t(D)|}{|D|}​
 
 在这篇文章中的trackers变化是比较大的，少数trackers 在数百外的网站中使用，而有的仅仅在一些网站中使用。而trackers的分布情况是符合幂律分布的。
 
-![image-20210722153215386](image-20210722150358137.png)
+![image-20210722153215386](image-20210722153215386.png)
 
 这种分布情况可以帮助我们解释一些现象。比如说，非常流行的trackers 会比小众的trackers更容易出现在新的网站中。图三九展示了对应的累积分布函数。我们发现50%的tracking services 嵌入在了少于1万个domain中。而在top 1% 的分布嵌入在了一百万pay-level domains中。
 
@@ -94,9 +94,9 @@ d_{D,t}=\frac{|t(D)|}{|D|}​
 
 现在我们关注tracker中的共现问题。比如，what proportion of hte website domains that embed facebook.com also embed twitter.com?
 
-![image-20210722160123573](image-20210722153215386.png)
+![image-20210722160123573](image-20210722160123573.png)
 
-图4 表明前十五个最足有通知力的tracking services。
+图4 表明前十五个最足有统治力的tracking services。
 
 ### Cluster Analysis of Tracker Co-Occurrences
 
@@ -104,6 +104,6 @@ d_{D,t}=\frac{|t(D)|}{|D|}​
 
 首先，我们可以得到一个邻接矩阵 A = B^{T}B , B是tracking network 的二阶邻接矩阵。B中的每一个元素都是从website 的PLD 到 tracking 的PLD。 而A_{ij}​​中的元素表示的是tracking 到tracking 的co-occurence 数量。我们使用了LLR 来对coccurrence matrix 进行剪枝。因此我们只保留了非常常见的tracker pairs。最后，我们将最终的network进行了聚类。我们对聚类的结果进行了进一步的处理，删除了一些非常小的clusters（只有两个节点），因此最终的co-occurrence network 只有329 个trackers，连接的边喂1857个边。
 
-![image-20210723183810000](image-20210722160123573.png)
+![image-20210723183810000](image-20210723183810000.png)
 
 如图上图所示，我们对一些trackers的services和注册国家进行了标注，最终，我们发现有四个clusters是country-specific patterns
