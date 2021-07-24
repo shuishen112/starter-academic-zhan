@@ -2,12 +2,14 @@
 title: Privacy Lost
 date: 2021-07-24T02:58:44.699Z
 summary: 这个项目的目的是想**利用web tracking
-  技术来研究数字化监控，使得数字化监控可以动态的可视化,，从而研究地域政治和政府权力的差异是如何影响全球的数字化监控的**。
+  技术来研究数字化监控，使得数字化监控可以动态的可视化,从而研究地域政治和政府权力的差异是如何影响全球的数字化监控的**。
 draft: false
 featured: false
 tags:
   - Phd
-external_link: https://twitter.com/zhansu9
+external_link: https://zhan-su.netlify.app/
+links:
+  - url: https://zhan-su.netlify.app/
 image:
   filename: https://upload.wikimedia.org/wikipedia/en/7/7f/Privacy_Lost_cover_Large.jpg
   focal_point: Smart
@@ -22,7 +24,7 @@ image:
 
 研究监控主义是非常有困难的，因为只有一些特殊的公司，有权力的组织才会有收集这些数据的能力，这会造成很严重的偏见。大部分的公司，有权利的组织事来自于西方国家。然而互联网的用户不仅仅是西方国家，除西方国家以外的地方占据了互联网用户的一大部分。如果我们只用现在的方法，就会使得我们的研究带有很大的偏见（western bias）.
 
-这个项目的目的是想**利用web tracking 技术来研究数字化监控，使得数字化监控可以动态的可视化,，从而研究地域政治和政府权力的差异是如何影响全球的数字化监控的**。
+这个项目的目的是想**利用web tracking 技术来研究数字化监控，使得数字化监控可以动态的可视化,从而研究地域政治和政府权力的差异是如何影响全球的数字化监控的**。
 
 ## 数据集
 
