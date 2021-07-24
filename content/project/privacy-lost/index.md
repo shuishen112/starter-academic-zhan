@@ -1,11 +1,13 @@
 ---
 title: Privacy Lost
 date: 2021-07-24T02:58:44.699Z
+summary: 这个项目的目的是想**利用web tracking
+  技术来研究数字化监控，使得数字化监控可以动态的可视化,，从而研究地域政治和政府权力的差异是如何影响全球的数字化监控的**。
 draft: false
 featured: false
 tags:
   - Phd
-external_link: https://zhan-su.netlify.app/
+external_link: https://twitter.com/zhansu9
 image:
   filename: https://upload.wikimedia.org/wikipedia/en/7/7f/Privacy_Lost_cover_Large.jpg
   focal_point: Smart
