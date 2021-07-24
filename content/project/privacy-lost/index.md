@@ -6,8 +6,8 @@ summary: 这个项目的目的是想**利用web tracking
 draft: false
 featured: false
 tags:
-  - Phd
-external_link: https://zhan-su.netlify.app/
+  - Deep Learning
+external_link: ""
 links:
   - url: https://zhan-su.netlify.app/
 image:
