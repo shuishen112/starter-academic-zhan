@@ -11,7 +11,6 @@ external_link: ""
 links:
   - url: https://zhan-su.netlify.app/
 image:
-  filename: https://upload.wikimedia.org/wikipedia/en/7/7f/Privacy_Lost_cover_Large.jpg
   focal_point: Smart
   preview_only: false
 ---
