@@ -1,6 +1,13 @@
 ---
 title: Tracking on Educational Websites based on large-scale web crawl
 date: 2021-08-02T03:04:02.615Z
+summary: 随着社交媒体和网络的发展，数字化监控技术已经渗透到我们生活的方方面面。数字化监控的不透明性会使得用户的隐私泄漏。社交网络中的数字化监控主要由web
+  tracking技术为主导。我们将在本文中研究全球教育网站中的web
+  tracking技术的发展。由于教育网站相比其他网站来说具有更高的更新频率，这可以帮助我们更好的分析web
+  tracking的变化。所以在本文中，我们对教育网站中的trackers进行了定量分析和结构化的分析。我们使用*domain shared*
+  指标来衡量trackers的的tracking能力，并将其作为我们的rank measure 对所有的trackers
+  进行排序。除此之外，我们构建了教育网站和trackers之间的二部图来研究不同网站trackers的分布。最后，我们对教育网站中的trackers进行了回归分析。我们发现在教育网站中，教育网站中的trackers数量从2017年到2021年有逐年减少的趋势(大约19%)，不同trackers对网站的tracking能力变化较大，“Facebook”,"Twitter"这些社交媒体类型的trackers在教育网站中占据了统治地位，其中“Facebook”和“twitter”的domain
+  share 为49% 和42%。
 draft: false
 featured: false
 image:
