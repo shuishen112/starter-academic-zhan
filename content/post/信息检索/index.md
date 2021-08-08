@@ -35,28 +35,28 @@ image:
 
   检索的文档的确是相关的。
 
-  P=\frac{A\cap B}{B}
+  $P=\frac{A\cap B}{B}$
 * **Recall**
 
   相关的文档的确被检索的比率。
 
-  R = \frac{|A\cap B|}{A}​
+  $R = \frac{|A\cap B|}{A}​$
 * F-measure F-measure 是Precision 和Recall 的调和平均数
 
-  F=\frac{2}{\frac{1}{P} + \frac{1}{R}} = 2\cdot \frac{P\cdot R}{P + R}
+  $F=\frac{2}{\frac{1}{P} + \frac{1}{R}} = 2\cdot \frac{P\cdot R}{P + R}$
 * Precision@k
 
-  P@k = \frac{1}{k}\sum\limits_{n = 1}^kr_n
+  $P@k = \frac{1}{k}\sum\limits_{n = 1}^kr_n$
 
-  where r_n\in{0,1}​ is the relevance degree of the n-th document.
+  where $r_n\in{0,1}​$ is the relevance degree of the n-th document.
 * Recall@k
 
-  R@k = \frac{1}{RB}\sum\limits_{n=1}^kr_n​
+  $R@k = \frac{1}{RB}\sum\limits_{n=1}^kr_n​$
 
   where RB is the recall base, i.e. the total number of relevant documents。
 * Rprec
 
-  Rprec=P@RB​​
+  $Rprec=P@RB​​$
 
   例如
 
