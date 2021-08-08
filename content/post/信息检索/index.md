@@ -1,6 +1,7 @@
 ---
 title: 信息检索
 date: 2021-08-08T03:14:39.874Z
+summary: 信息检索用来处理信息的表示，存储，组织结构以及信息的获取。这些信息包括文档，网页，半结构化的目录，多媒体对象。
 draft: false
 featured: false
 image:
@@ -8,8 +9,6 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-# 信息检索
-
 信息检索用来处理信息的表示，存储，组织结构以及信息的获取。这些信息包括文档，网页，半结构化的目录，多媒体对象。
 
 ## 介绍
@@ -98,19 +97,32 @@ pyterrier 是一个很好的工具，可以帮助我们快速的熟悉信息检�
 ### 获取数据
 
 ```
+import pyterrier as pt
+import pandas as pd 
+pt.init()
+pt.logging("INFO")
 
+dataset = pt.datasets.get_dataset('irds:cord19/trec-covid')
 ```
 
 ### 建立索引
 
 ```
-
+indexer = pt.index.IterDictIndexer('./cord19-index')
+indexref = indexer.index(dataset.get_corpus_iter(), fields=('title', 'abstract'))
+index = pt.IndexFactory.of(indexref)
+# 输出最终的数据统计
+print(index.getCollectionStatistics().toString())
 ```
 
 ### 建立索引模型进行实验
 
 ```
-
+indexer = pt.index.IterDictIndexer('./cord19-index')
+indexref = indexer.index(dataset.get_corpus_iter(), fields=('title', 'abstract'))
+index = pt.IndexFactory.of(indexref)
+# 输出最终的数据统计
+print(index.getCollectionStatistics().toString())
 ```
 
 非常的方便。
