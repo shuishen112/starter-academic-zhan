@@ -66,19 +66,19 @@ image:
 
 ### Average Precision
 
-AP = \frac{1}{RB}\sum\limits_{k\in R}P@k
+$AP = \frac{1}{RB}\sum\limits_{k\in R}P@k$
 
-where R is the set of the rank positions of the relevant retrieved documents;
+where $R$ is the set of the rank positions of the relevant retrieved documents;
 
 **Mean Average Precision(MAP)** is the mean of AP over a set of topics.
 
 ### Discounted Cumulated Gain
 
-\begin{equation}DCG(k) = \left{\begin{aligned} \sum_{n=1}^kr\_n \ DCG\_{k-1} + \frac{r_k}{\log\_b(k)} \end{aligned}\right. \end{equation}=\sum\limits\_{n = 1}^k\frac{r_n}{max(1,\log_b(n))}​​​
+$\begin{equation}DCG(k) = \left{\begin{aligned} \sum_{n=1}^kr\_n \ DCG\_{k-1} + \frac{r_k}{\log\_b(k)} \end{aligned}\right. \end{equation}=\sum\limits\_{n = 1}^k\frac{r_n}{max(1,\log_b(n))}​​​$
 
 where the base of the logarithm b indicates the patience of the user in scanning the result list.
 
-* DCG 可以处理multi-graded ralevance
+* DCG 可以处理multi-graded relevance
 * DCG does not depend on the recall base
 * DCG is not bounded in \[0,1]
 
@@ -88,7 +88,7 @@ where the base of the logarithm b indicates the patience of the user in scanning
 
 To normalize DCG in \[0,1], you need to compute the ideal run。我们将最理想化的DCG作为分母进行normalized。
 
-NDCG(k) = \frac{DCG(k)}{iDCG(k)}
+$NDCG(k) = \frac{DCG(k)}{iDCG(k)}$
 
 ## 用pyterrier进行信息检索
 
